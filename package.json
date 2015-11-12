@@ -8,7 +8,10 @@
   "author": "yachibit",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.1.5",
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
     "jsdom": "^7.0.2",
     "webpack": "^1.12.4",
     "webpack-dev-server": "^1.12.1"
@@ -22,5 +25,11 @@
     "react-dom": "^0.14.2",
     "react-redux": "^4.0.0",
     "redux": "^3.0.4"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
